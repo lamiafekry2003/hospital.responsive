@@ -1,0 +1,144 @@
+body{
+    font-family: cursive;
+}
+/* start header */
+.header{
+    background-image: url("../imges/download.jpg");
+    background-size: cover;
+    height: 700px;
+}
+/* start nav section */
+nav{
+    width: 60%;
+    margin: auto;
+}
+@media (max-width:768px){
+    nav{
+        width: 100%;
+    }
+
+}
+.nav-link{
+   margin-left: 35px;
+   font-size: 20px;
+   line-height: 1.5;
+   color: white !important;   
+}
+nav img{
+    width: 120px;
+    height: 100px;
+}
+nav button{
+    background-color: #ed7c6a !important;
+    border: none !important;
+}
+/* end nav section */
+.box-header{
+    background-color: #60a58f;
+    height: 350px;
+    padding: 40px 20px 50px 30px;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+.box-header h3{
+    color: white;
+    font-size: 35px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+@media (max-width:768px){
+    .header{
+        height: auto;
+       
+    }
+    .box-header{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-right: 25px;
+    }
+}
+/* end header */
+/* start clinic */
+.clinic h2{
+   color:#074d4c;
+   position: relative;
+}
+.clinic h2::after{
+    content: "";
+    width: 200px;
+    height: 5px;
+    /* text-align: center; */
+    background-color: #e98317;
+    position: absolute;
+    top: 85%;
+    margin-top: 15px;
+    margin-left: -190px;  
+}
+.clinic img{
+    width: 400px;
+    height: 300px;
+}
+.clinic h3{
+    color: #479da5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.clinic p{
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+}
+/* end clinic */
+/* start section */
+.section{
+    background-image: url("../imges/Path\ 62.png") , url("../imges/doctor.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.section h4{
+    padding-top: 10px;
+    color: #90c1be;
+    font-weight:normal;
+}
+.rounded{
+    border-radius: 18px !important;
+}
+@media(max-width:768px){
+   .section{
+    height: auto;
+   }
+   .section h4{
+    padding-top: 70px;
+   }
+}
+/* end section */
+/* start contect */
+.content{
+    background-color: #0f7b65;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+.content h5{
+    letter-spacing: 2px;
+    font-size: 19px;
+    padding-top: 15px;
+    width: 100%;
+}
+.content h3{
+    color: #e98a71;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.content ul{
+    list-style-type: none;
+}
+.content ul li{
+    color: white;
+    padding-bottom: 15px;
+}
+/* end contect */
